@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 table=pd.DataFrame({"Sr.NO":[1,2,3,4,5],"Age":[23,34,54,12,32]})
 #create title of the page
 st.title(" Welcome to STREAMlit(Title)")
@@ -202,10 +202,5 @@ with st.form("form3",clear_on_submit=True):
 st.sidebar.radio('select',options=("line",'bar','hist'))
 
 
-# matplotlib charts
-x=np.linspace(0,10,100)
-fig=plt.figure()
-plt.plot(x,np.sin(x))
-st.write(fig)
-
+st.header("---End of the page---")
 
