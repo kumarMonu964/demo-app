@@ -202,5 +202,5 @@ with st.form("form3",clear_on_submit=True):
 st.sidebar.radio('select',options=("line",'bar','hist'))
 
 
-st.header("---End of the page---")
+st.markdown("<h2 style='text-align:centre;'>---End of the page---</h2>")
 
