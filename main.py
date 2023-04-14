@@ -202,5 +202,5 @@ with st.form("form3",clear_on_submit=True):
 st.sidebar.radio('select',options=("line",'bar','hist'))
 
 
-st.markdown("<h2 style='text-align:centre;'>---End of the page---</h2>",unsafe_allow_html=True)
+st.markdown("<h2 style='text-align:center;'>---End of the page---</h2>",unsafe_allow_html=True)
 
