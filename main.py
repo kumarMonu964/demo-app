@@ -48,12 +48,12 @@ st.table(table) # this is a static table
 # to create interactive table 
 st.dataframe(table)  # can change the order of the values in the table
 
-# fixing images and videos to the app
-st.image("image.png",caption="Riots took place on Ram Navmi as Hindus were peacefully performing their processions.",width=500)
+# # fixing images and videos to the app
+# st.image("image.png",caption="Riots took place on Ram Navmi as Hindus were peacefully performing their processions.",width=500)
 
-st.audio("audio.m4a")
+# st.audio("audio.m4a")
 
-st.video("video.mp4")
+# st.video("video.mp4")
 
 # to remove the top-right button from streamlit app and the watermark
 st.markdown("""
